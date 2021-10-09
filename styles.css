@@ -1,0 +1,75 @@
+* {
+    color: black;
+}
+body {
+    background-color:white;
+}
+h1 {
+    font-size: xx-large;
+    font-style: italic;
+    background-color: orange;
+}
+
+nav {
+    font-size: 15px;
+}
+
+img, video, audio {
+    border-style: solid;
+    border-radius: 30px;
+    border-color:cornflowerblue;
+    align-self: center;
+}
+button:hover {
+    background-color:rgb(180, 180, 180);
+}
+.large_font {
+    font-size: xx-large;
+    color: black;
+    font-weight: bolder;
+}
+a[href] {
+    color: red;
+    font-size: large;
+}
+p::first-letter {
+    color: blue;
+    font-size: xx-large;
+}
+#form_box {
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(255, 60, 0, 0.788);
+}
+fieldset {
+    background-color: rgb(129, 202, 236);
+}
+form > label {
+    background: yellow;
+}
+
+fieldset label {
+    font-size: x-large;
+    font-style: oblique;
+}
+
+input + label {
+    font-weight: 400;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    margin-bottom: 5%;
+}
+button {
+    align-self: center;
+    height: 3%;
+    font-size: large;
+    margin-bottom: 10%;
+}
+
+input ~ label {
+    font-style: oblique;
+}
