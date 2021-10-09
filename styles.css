@@ -7,12 +7,24 @@ body {
 h1 {
     font-size: xx-large;
     font-style: italic;
+    text-align: center;
     background-color: orange;
 }
 
 nav {
     font-size: 15px;
 }
+textarea {
+    width: 90%;
+    height: 100px;
+    margin-bottom: 5%;
+}
+button {
+    align-self: center;
+    height: 3%;
+    font-size: large;
+}
+
 
 img, video, audio {
     border-style: solid;
@@ -56,17 +68,6 @@ fieldset label {
 
 input + label {
     font-weight: 400;
-}
-
-textarea {
-    width: 90%;
-    height: 100px;
-    margin-bottom: 5%;
-}
-button {
-    align-self: center;
-    height: 3%;
-    font-size: large;
 }
 
 input ~ label {
