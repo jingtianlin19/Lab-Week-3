@@ -4,24 +4,39 @@
 <head>
     <meta name="description" content="meeting minutes">
     <meta name="keywords" content="dogs, pet, bichon">
+    <link rel="stylesheet" href="styles.css">
+    <style> 
+    section {
+        background-color: #ffff;
+        height: 100vh;
+    }
+    h3 {
+        color:black;
+        padding-left: 50%;
+    }
+    h4 {
+        color:black;
+        font-size: 5ex;
+    }
+    </style>
     <title>bichon</title>
 </head>
 
 <body>
     <h1> Why we should all have pets </h1>
     <h3> Oct 3, 2021 </h3>
-    <header>
+    <header style ="color:coral; text-align: center;background-color:cornsilk;height: 100px;font-size: 30px;">
         <h2> Bichon is the best </h2>
     </header>
 
     <section>
         <h4>BICHON!</h4>
         <nav>
-            <ul>
+            <ul style="margin-bottom: 20px;">
                 <li><a href="https://en.wikipedia.org/wiki/Bichon/"> More about Bichon</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Bichon/"> More about Bichon</a></li>
             </ul>
-            <ol>
+            <ol style="color:black">
                 <li><a
                         href='https://www.google.com/search?q=bichon&rlz=1C1RXMK_enUS972US972&sxsrf=AOaemvJ1F_35eiIJtSWYkEsH9gIMkyVHxQ:1633407931246&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj5j4_ctrLzAhXQ6J4KHZlcDlIQ_AUoAXoECAEQAw&biw=2560&bih=1329&dpr=1#imgrc=yKrQlY_HUlPEqM'>good
                         stuff</a></li>
@@ -36,8 +51,8 @@
 
         </nav>
 
-        <div>
-            <b>knowledge about bichon</b>
+        <div style="padding: 5px; color: black; font-size: 1rem;">
+            <b class="large_font">knowledge about bichon</b>
 
             <p>A bichon is a distinct type of toy dog; it is typically kept as a companion dog</p>
             <p> Believed to be descended from the Barbet, it is believed the bichon-type dates to at least the 11th
@@ -58,7 +73,7 @@
         </div>
 
         <hr>
-        <form>
+        <form id="form_box">
             <input type="checkbox" id="choicel" value="dog">
             <label for="choicel"> I have a dog</label><br>
             <input type="checkbox" id="choice2" value="cat">
@@ -85,8 +100,8 @@
         <button type='button' onclick="alert('boooooom!')">surprise</button>
     </section>
 
-    <footer>
-        <p>Be a Bichon lover now !</p>
+    <footer style="position:fixed; height: 20%;">
+        <p class="large_font">Be a Bichon lover now !</p>
     </footer>
 </body>
 
