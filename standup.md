@@ -1,0 +1,2 @@
+Last time: created the meeting minute and format, formatted the meeting minute, and added several contents 
+Today: modifying the format, changing styles, changing font-size, font-color, background color, adding features, and blocks
