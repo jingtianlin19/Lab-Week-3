@@ -67,7 +67,6 @@ button {
     align-self: center;
     height: 3%;
     font-size: large;
-    margin-bottom: 10%;
 }
 
 input ~ label {
